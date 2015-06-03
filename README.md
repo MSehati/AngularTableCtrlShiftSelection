@@ -28,6 +28,7 @@ Usage
 
 Example
 -------
+(e.g create multi selection calender by table)
 ````javascript
 angular.module('app', ['ctrlshiftselection']);
 ````
@@ -42,9 +43,8 @@ angular.module('app', ['ctrlshiftselection']);
             </tr>
         </table>
 ````
-....
+
 For full example see - http://jsfiddle.net/b88rus7r/26/
-````
 
 Other
 -------
