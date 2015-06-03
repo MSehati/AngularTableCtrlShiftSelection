@@ -18,12 +18,11 @@ Usage
 
 * Include module 'ctrlshiftselection' in your app/module
 * Use standard ``ng-repeat`` to render your list
-* Add  attribute ``ctrlshiftselect`` to a root element of your items, e.g. to a ``table`` element also add two below Attributes.
-* 1- ctrlshiftselect-class:detemine the css class of selected td
-* 2- select-list : an Array of Selected Items
-* 
+* Add  attribute ``ctrlshiftselect`` to a root element of your items, e.g. to a ``table`` element also add two below   Attributes.
+ 1- ctrlshiftselect-class:detemine the css class of selected td
+ 2- select-list : an Array of Selected Items
 * In item template in your ``ng-repat`` (see example below) add attribute ``ctrlshiftselect-model="item"`` 
-* when a td is selected a new boolean Property 'isSelected' Added to item which has True value
+  when a td is selected a new boolean Property 'isSelected' Added to item which has True value
 
 
 Example
