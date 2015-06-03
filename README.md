@@ -32,7 +32,7 @@ Example
 angular.module('app', ['ctrlshiftselection']);
 ````
 
-````html (e.g create multi selection calender by table)
+````html 
  <table ctrlshiftselect ctrlshiftselect-class="selected" select-list="selectedDayList" >            
             <tr ng-repeat="item in months" >
                 <td>{{item.title}}</td>
@@ -48,5 +48,6 @@ For full example see - http://jsfiddle.net/b88rus7r/26/
 
 Other
 -------
-To create this directive I get basic idea from another directive written by 'David Bohunek' (https://github.com/davidbohunek/angularCtrlShiftSelect). It was a good directive but have one problem, It work slowly for table with lots of tds. I create this directive to work well on tables with many tds.
+To create this directive I get basic idea from another directive written by 'David Bohunek' (https://github.com/davidbohunek/angularCtrlShiftSelect). 
+It was a good directive but have one problem, It work slowly for table with lots of tds. I create this directive to work well on tables with many tds.
 
