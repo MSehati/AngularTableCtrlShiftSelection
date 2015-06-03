@@ -1,7 +1,7 @@
-AngularTableCtrlShiftSelection
+Angular Table Ctrl-lShift Selection
 ======================
 
-AngularTableCtrlShiftSelection is lightweight and simple set of directives which allows you to use left mouse button clicks with CTRL and SHIFT to select multiple items as you are used to from desktop apps.
+'ctrlshiftselection' is lightweight and simple set of directives which allows you to use left mouse button clicks with CTRL and SHIFT to select multiple items as you are used to from desktop apps.
 
 See demo:
 http://jsfiddle.net/b88rus7r/26/
