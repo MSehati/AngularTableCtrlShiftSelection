@@ -1,2 +1,2 @@
 # AngularTableCtrlShiftSelection
-select table cells by ctrl or shift keys
+select html table tds by ctrl or shift keys
