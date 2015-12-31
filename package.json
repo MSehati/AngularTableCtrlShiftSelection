@@ -1,0 +1,21 @@
+{
+  "name": "ctrl-shift-selection",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lite-server": "^1.3.1",
+	"bower": "^1.3.9"
+  },
+  "scripts": {
+    "install" :"bower install",
+	"start": "lite-server --baseDir ./example --baseDir ./ && lite-server --open example && npm run lite-server "
+  },
+  "keywords": [],
+  "author": [
+    "Motahare Sehati"
+  ],
+  "license": "ISC"
+}

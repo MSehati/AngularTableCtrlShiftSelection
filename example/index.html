@@ -1,0 +1,31 @@
+
+<html>
+<head>
+	<title> Table Ctrl Shift selection </title>
+	<script src="../bower_components/angular/angular.min.js"></script>
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../src/CtrlShiftSelection.js"></script>
+	<!-- <script src="../dist/CtrlShiftSelection.min.js"></script> -->
+	<script src="example.js"></script>
+	<link rel="stylesheet" href="example.css" />
+</head>
+<body>
+<div ng-app="app" ng-controller="ExampleCtrl">
+        <table ctrlshiftselect ctrlshiftselect-class="selected" select-list="selectedDayList" >            
+            <tr ng-repeat="item in months" >
+                <td>{{item.title}}</td>
+                <td ng-repeat="day in item.days" ctrlshiftselect-model="day"  >
+                    {{day.num + " " + (day.isSelected || false)}}
+                </td>
+            </tr>
+        </table>
+    
+    <ul >
+        <li ng-repeat="item in selectedDayList">
+            {{item.num + " " + (item.isSelected || false)}} </li>
+    </ul>
+    
+    <button ng-click="removeSelection()">removeSelection</button>
+</div>
+</body>
+</html>
