@@ -5,6 +5,7 @@ Angular Table Ctrl-lShift Selection
 
 See demo:
 http://jsfiddle.net/b88rus7r/28/
+http://jsbin.com/fuwejidavu/edit?html,css,js,output
 
 Installation
 ------------
