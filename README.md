@@ -4,13 +4,13 @@ Angular Table Ctrl-lShift Selection
 'ctrlshiftselection' is lightweight and simple set of directives which allows you to use left mouse button clicks with CTRL and SHIFT to select multiple items as you are used to from desktop apps.
 
 See demo:
-http://jsfiddle.net/b88rus7r/26/
+http://jsfiddle.net/b88rus7r/28/
 
 Installation
 ------------
 
 * Download  script file -
-* https://rawgit.com/MSehati/AngularTableCtrlShiftSelection/master/CtrlShiftSelection.js
+* https://rawgit.com/MSehati/AngularTableCtrlShiftSelection/master/src/CtrlShiftSelection.js
 * Include the script in your webpage
 
 Usage
